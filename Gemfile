@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-
+#Heroku gem
+gem 'rails_12factor', group: :production
+#Haml Gem..duh.
 gem 'haml'
 # Twitter Bootstrap
 gem 'bootstrap-sass', '~>3.2.0'
